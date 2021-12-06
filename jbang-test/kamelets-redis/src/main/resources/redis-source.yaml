@@ -1,0 +1,7 @@
+- from:
+    uri: "kamelet:redis-source"
+    parameters:
+      redisHost: "localhost"
+      redisPort: "{{redis.port}}"
+    steps:
+      - to: "log:info?showStreams=true"

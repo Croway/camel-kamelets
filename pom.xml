@@ -37,6 +37,7 @@
         <module>library/camel-kamelets</module>
         <module>library/camel-kamelets-catalog</module>
         <module>library/camel-kamelets-utils</module>
+        <module>jbang-test</module>
     </modules>
 
     <properties>
